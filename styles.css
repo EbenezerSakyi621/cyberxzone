@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    cursor: pointer;
+}
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.hello{
+    animation-name: round;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-delay: 5s;
+    animation-iteration-count: 5;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
